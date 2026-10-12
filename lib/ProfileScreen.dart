@@ -42,12 +42,12 @@ class ProfileScreen extends StatelessWidget {
                       SizedBox(height: 5,),
 
                       Text('Hemal_minhaj', style: TextStyle(
-                        fontSize: 15.sp,
+                        fontSize: 10.sp,
                         fontWeight: FontWeight.bold,
                       ),
                       ),
                       Text('Flutter Developer', style: TextStyle(
-                          fontSize: 10.sp,
+                          fontSize: 8.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.grey.shade700
                       ),
@@ -57,7 +57,7 @@ class ProfileScreen extends StatelessWidget {
 
                       Text('Passionate about creating user-friendly and engaging digital experiences.',
                         style: TextStyle(
-                            fontSize: 12.sp
+                            fontSize: 8.sp
                         ),
                       ),
                       SizedBox(height: 14),
@@ -66,10 +66,10 @@ class ProfileScreen extends StatelessWidget {
                       Row(
                         // mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.email,size: 20.sp,),
+                          Icon(Icons.email,size: 12.sp,),
                           SizedBox(width: 10,),
                           Text('himelminhajul@gmail.com',style: TextStyle(
-                              fontSize: 15.sp
+                              fontSize: 10.sp
                           ),),
                         ],
                       ),
@@ -78,10 +78,10 @@ class ProfileScreen extends StatelessWidget {
                       Row(
                         // mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.phone,size: 20.sp,),
+                          Icon(Icons.phone,size: 12.sp,),
                           SizedBox(width: 10,),
                           Text('+8801679457299',style: TextStyle(
-                              fontSize: 15.sp
+                              fontSize: 10.sp
                           ),),
                         ],
                       ),
@@ -144,7 +144,7 @@ class ProfileScreen extends StatelessWidget {
                       child: Text(
                         'Interests',
                         style: TextStyle(
-                          fontSize: 14.sp,
+                          fontSize: 12.sp,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -193,13 +193,13 @@ class ProfileScreen extends StatelessWidget {
                                 ),
                                 SizedBox(height: 10,),
                                 Text('Travel',style: TextStyle(
-                                    fontSize: 18.sp,
+                                    fontSize: 12.sp,
                                     fontWeight: FontWeight.bold
                                 ),),
                                 SizedBox(height: 10,),
                                 Text(
                                   'Exploring new places around the world',
-                                  style: TextStyle(fontSize: 12.sp),
+                                  style: TextStyle(fontSize: 8.sp),
                                 ),
                                 SizedBox(height: 20,),
 
@@ -262,13 +262,13 @@ class ProfileScreen extends StatelessWidget {
                                 ),
                                 SizedBox(height: 10,),
                                 Text('Photography',style: TextStyle(
-                                    fontSize: 18.sp,
+                                    fontSize: 12.sp,
                                     fontWeight: FontWeight.bold
                                 ),),
                                 SizedBox(height: 10,),
                                 Text(
                                   'Capturing moments through the lens',
-                                  style: TextStyle(fontSize: 12.sp),
+                                  style: TextStyle(fontSize: 8.sp),
                                 ),
                                 SizedBox(height: 20,),
 
