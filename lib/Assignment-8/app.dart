@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'ProfileScreen.dart';
+import '../ProfileScreen.dart';
+import 'ProfileScreenPractice.dart';
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               useMaterial3: true,
             ),
-            home: ProfileScreen(),
+            home: ProfileScreenPractice(),
 
           );
         }
